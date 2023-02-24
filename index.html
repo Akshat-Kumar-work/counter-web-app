@@ -10,20 +10,32 @@
 </head>
 <body>
     
-    <div class=" flex  justify-center items-center " >
-        
-        <div class=" ">
+    
+        <!--wrapper -->
+        <div class="w-[100vw] h-[100vh] flex flex-col justify-center items-center bg-[#344151] gap-10">
 
-            <div>Increment And Decrement</div>
-            <div class=" flex justify-center items-center ">
-                <button> <i class="fa-solid fa-plus"></i> </button>
-                <div>0</div>
-                <button> <i class="fa-solid fa-minus"></i> </button>
+            <!--text section-->
+            <div class="text-[#0398d4]  font-medium text-[20px]">Increment And Decrement</div>
+
+            <!--output section-->
+            <div class="bg-white text-[25px] text-[#344151] rounded-sm flex justify-center items-center gap-12 px-5">
+
+                <!--minus btn-->
+                <button onclick="decrement()" id="minus" class=" border-r-2 border-[#bfbfbf] pr-5">
+                     <i class="fa-solid fa-minus"></i> </button>
+
+                     <!--value of numb-->
+                    <div id="numb" >0</div>
+
+                <!--plus btn-->
+                <button  onclick="increment()" id="plus" class=" border-l-2 border-[#bfbfbf] pl-5" > 
+                    <i class="fa-solid fa-plus"></i> </button>
+
             </div>
 
         </div>
 
-    </div>
+    
 
     
     <script src="https://kit.fontawesome.com/1b831ca808.js" crossorigin="anonymous"></script>
