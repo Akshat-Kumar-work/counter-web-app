@@ -10,8 +10,6 @@ const increment = ()=>{
     updatedValue++;
     //setting the fetched value of element by updatedvalue
     value.innerText=updatedValue;
-  
-    
 };
 
 // decrement is variable having function
@@ -22,5 +20,4 @@ const decrement = ()=>{
     updatedValue--;
     //setting the fetched value of element by updatedvalue
     value.innerText=updatedValue;
- 
 };
